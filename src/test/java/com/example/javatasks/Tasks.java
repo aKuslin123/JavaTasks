@@ -1,4 +1,4 @@
-package com.example.pshetasks;
+package com.example.javatasks;
 
 public class Tasks {
     public static String intNumber(int number) {

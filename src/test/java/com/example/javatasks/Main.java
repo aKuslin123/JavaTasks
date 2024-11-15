@@ -1,4 +1,4 @@
-package com.example.pshetasks;
+package com.example.javatasks;
 
 public class Main {
     public static void main(String[] args) {
