@@ -1,6 +1,9 @@
-package com.example.javatasks;
+package com.example.javatasks.qaAuto;
 
-public class Tasks {
+public class Tasks1 {
+    //урла с задачами:
+    //https://docs.google.com/document/d/1CCWyLICvjqlD71hbzJU09kkh7I86Zrt2-9V2oFqLZJo/edit?tab=t.0
+
     public static String intNumber(int number) {
         float result = number % 2;
         System.out.println(result);
