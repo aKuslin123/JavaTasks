@@ -2,6 +2,23 @@ package com.example.javatasks;
 
 public class Main {
     public static void main(String[] args) {
+        task1();
+    }
+
+    public static void task1() {
+        for (int i = 1; i <= 100; i++) {
+            if (i % 3 == 0 || i % 5 == 0) {
+                System.out.println(i);
+            }
+        }
+    }
+
+    public static void task2(int num) {
+        if (num % 2 == 0) {
+            System.out.println("Even");
+        } else System.out.println("Odd");
+    }
+
 //        String result = Tasks.intNumber(5);
 //        System.out.println(result);
 //
@@ -26,7 +43,6 @@ public class Main {
 //        String result8 = Tasks.task8(0);
 //        System.out.println(result8);
 
-        boolean result14 = Tasks.task14int(123321);
-        System.out.println(result14);
-    }
+//        boolean result14 = Tasks1.task14int(123321);
+//        System.out.println(result14);
 }
