@@ -1,4 +1,4 @@
-package com.example.javatasks.expressInterviewTasks.hwOne;
+package com.example.javatasks.expressInterviewTasks.hw.hw1;
 
 import java.util.Scanner;
 

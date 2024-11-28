@@ -1,4 +1,4 @@
-package com.example.javatasks.expressInterviewTasks.hwOne;
+package com.example.javatasks.expressInterviewTasks.hw.hw1;
 
 public class innerCycles {
     public static void main(String[] args) {

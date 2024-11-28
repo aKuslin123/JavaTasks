@@ -1,4 +1,4 @@
-package com.example.javatasks.expressInterviewTasks.hwOne.oop;
+package com.example.javatasks.expressInterviewTasks.hw.hw1.oop;
 
 /*
 Задача 1: Создание класса "Круг"
