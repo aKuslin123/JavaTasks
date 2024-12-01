@@ -1,4 +1,4 @@
-package com.example.javatasks.expressInterviewTasks.hw.hw2.Library;
+package com.example.javatasks.expressInterviewTasks.hw.hw2.library;
 
 public class Main {
     public static void main(String[] args) {

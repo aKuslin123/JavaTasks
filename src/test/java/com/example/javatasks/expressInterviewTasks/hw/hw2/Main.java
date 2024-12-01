@@ -37,15 +37,27 @@ public class Main {
 //        boolean equal = person.equals(equalPerson);
 //        System.out.println(equal);
 
-        Student student = new Student("Иван", 1, 4.3, new int[]{4, 5, 3});
-        Student cloneStudent = student.clone();
+//        Student student = new Student("Иван", 1, 4.3, new int[]{4, 5, 3});
+//        Student cloneStudent = student.clone();
+//
+//        System.out.println("Original: " + student);
+//        System.out.println("Clone: " + cloneStudent);
+//
+//        cloneStudent.setGrades(new int[]{3, 5, 4});
+//        cloneStudent.setId(2);
+//        System.out.println("Original: " + student);
+//        System.out.println("Clone: " + cloneStudent);
 
-        System.out.println("Original: " + student);
-        System.out.println("Clone: " + cloneStudent);
+        Product originalProduct = new Product("Laptop", 999.99, 1);
 
-        cloneStudent.setGrades(new int[]{3, 5, 4});
-        cloneStudent.setId(2);
-        System.out.println("Original: " + student);
-        System.out.println("Clone: " + cloneStudent);
+        // Клонирование продукта
+        Product clonedProduct = originalProduct.clone();
+
+        System.out.println(originalProduct);
+        System.out.println(clonedProduct);
+
+        // Проверка, что это два разных объекта, но с одинаковыми значениями
+        System.out.println(originalProduct != clonedProduct); // true
+        System.out.println(originalProduct.equals(clonedProduct)); // true
     }
 }

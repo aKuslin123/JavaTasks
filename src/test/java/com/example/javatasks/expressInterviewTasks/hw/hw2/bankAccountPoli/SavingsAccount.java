@@ -1,4 +1,4 @@
-package com.example.javatasks.expressInterviewTasks.hw.hw2.BankAccountPoli;
+package com.example.javatasks.expressInterviewTasks.hw.hw2.bankAccountPoli;
 
 public class SavingsAccount extends BankAccount {
     public SavingsAccount(String accountNumber, int balance) {

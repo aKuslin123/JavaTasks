@@ -1,4 +1,4 @@
-package com.example.javatasks.expressInterviewTasks.hw.hw2.Library;
+package com.example.javatasks.expressInterviewTasks.hw.hw2.library;
 
 import java.util.ArrayList;
 import java.util.List;
